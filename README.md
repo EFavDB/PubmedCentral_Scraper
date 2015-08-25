@@ -22,7 +22,7 @@ Order of steps in pubmedcentral_scraper.R
 
 To visualize results of scraping
 --------------------------
-markdown_and_plot.R queries the SQLite database where the scraping results are stored for the user-specified topic and plot type, then generates Rmarkdown code that is knitted to html displaying the matching plots and their associated captions and article information.  For an example outputted html file, go to the subdirectory files_generated_by_code/ and download "scraper_TGI_plots_for_trastuzumab.html" or simply click on makeHTMLplots.md in github, which will render the same html file.  Note that the plots are generated via href's to their Pubmed Central full-text articles and are not stored locally on the user's harddisk.
+markdown_and_plot.R queries the SQLite database where the scraping results are stored for the user-specified topic and plot type, then generates Rmarkdown code that is knitted to html displaying the matching plots and their associated captions and article information.  For an example html report, go to the subdirectory example and download  download "scraper_TGI_plots_for_trastuzumab.html" or simply click on scraper_TGI_plots_for_trastuzumab.md in github, which will render the same html file.  Note that the plots are generated via href's to their Pubmed Central full-text articles and are not stored locally on the user's harddisk.
 
 
 Generic functions for accessing Entrez utilities
