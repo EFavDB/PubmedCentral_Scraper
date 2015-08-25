@@ -4,6 +4,7 @@ pubmedcentral_scraper.R
 
 pubmedcentral_scraper.R is an R script that retrieves a list of Pubmed Central article ID's returned by a query to the Pubmed Central database at the National Center for Biotechnology Information (NCBI) via the Entrez Programming Utilities interface http://www.ncbi.nlm.nih.gov/books/NBK25499/.  For each article ID, the scraper scans the captions of every figure in the online versions of the full-text articles for matches to the user-specified query topics.  Metadata for matching figures are stored in a SQLite database.
 
+Also check out the [blog post](http://efavdb.com/build-a-web-scraper-lit-search/) about the scraper at EFavDB.com.
 
 Prerequisite to running pubmedcentral_scraper.R
 --------------------------
