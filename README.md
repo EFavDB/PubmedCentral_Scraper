@@ -1,3 +1,4 @@
+
 pubmedcentral_scraper.R
 =========================
 
@@ -26,3 +27,6 @@ markdown_and_plot.R queries the SQLite database where the scraping results are s
 Generic functions for accessing Entrez utilities
 ---------------------------
 eFetch.R and eSearch.R are not constrained to searches on Pubmed Central (e.g., Pubmed is equally valid).  However, pubmedcentral_scraper.R will only work with id's from a query to the Pubmed Central database, since those articles are guaranteed to have full-text online versions.
+
+
+
